@@ -289,7 +289,7 @@
     <rect width="872" height="130" rx="12" fill="#040906" stroke="#164d27" stroke-width="1.5" />
     
     <g transform="translate(145, 12)">
-      <text x="0" y="44" class="streak-val">443</text>
+      <text x="0" y="44" class="streak-val">457</text>
       <text x="0" y="76" class="streak-lbl">TOTAL CONTRIBUTIONS</text>
       <text x="0" y="102" class="streak-sub">Jul 7, 2025 &#8211; Present</text>
     </g>
@@ -299,10 +299,10 @@
     <g transform="translate(436, 12)">
       <circle cx="0" cy="30" r="28" stroke="#163d22" stroke-width="3.5" fill="none" />
       <circle cx="0" cy="30" r="28" stroke="#00ff66" stroke-width="3.5" stroke-dasharray="176" stroke-dashoffset="176" stroke-linecap="round" fill="none" />
-      <text x="0" y="39" class="streak-curr-val">0</text>
+      <text x="0" y="39" class="streak-curr-val">1</text>
       
       <text x="0" y="76" class="streak-curr-label">CURRENT STREAK</text>
-      <text x="0" y="102" class="streak-sub">Today</text>
+      <text x="0" y="102" class="streak-sub">Oct 01</text>
     </g>
 
     <line x1="582" y1="18" x2="582" y2="112" stroke="#163d22" stroke-width="1" />
@@ -330,7 +330,7 @@
       <circle cx="7" cy="7" r="6" stroke="#00ff66" stroke-width="1.5" fill="none" />
       <path d="M7 3.5 L7 7 L9.5 8.5" stroke="#00ff66" stroke-width="1.5" fill="none" stroke-linecap="round" />
       <text x="24" y="11" class="stat-lbl">Total Commits:</text>
-      <text x="360" y="11" class="stat-num">505</text>
+      <text x="360" y="11" class="stat-num">515</text>
     </g>
 
     <g transform="translate(36, 104)">
@@ -367,28 +367,28 @@
 
     <g transform="translate(28, 44)">
       <rect width="816" height="10" rx="5" fill="#0e2617" />
-      <rect x="0" y="0" width="485.4" height="10" rx="5" fill="#f1e05a" />
-      <rect x="485.4" y="0" width="280.4" height="10" fill="#3572A5" />
-      <rect x="765.8" y="0" width="44.9" height="10" fill="#663399" />
-      <rect x="810.6999999999999" y="0" width="2.3" height="10" fill="#e34c26" />
-      <rect x="812.9999999999999" y="0" width="2.0" height="10" fill="#DA5B0B" />
-      <rect x="814.9999999999999" y="0" width="1.0000000000001137" height="10" rx="5" fill="#C1F12E" />
+      <rect x="0" y="0" width="485.6" height="10" rx="5" fill="#f1e05a" />
+      <rect x="485.6" y="0" width="280.2" height="10" fill="#3572A5" />
+      <rect x="765.8" y="0" width="44.8" height="10" fill="#663399" />
+      <rect x="810.5999999999999" y="0" width="2.3" height="10" fill="#e34c26" />
+      <rect x="812.8999999999999" y="0" width="2.0" height="10" fill="#DA5B0B" />
+      <rect x="814.8999999999999" y="0" width="1.1000000000001364" height="10" rx="5" fill="#C1F12E" />
     </g>
 
     <g transform="translate(28, 82)">
       <circle cx="5" cy="5" r="4.5" fill="#f1e05a" />
       <text x="18" y="9" class="lang-name">JavaScript</text>
-      <text x="240" y="9" class="lang-pct">59.48%</text>
+      <text x="240" y="9" class="lang-pct">59.51%</text>
     </g>
     <g transform="translate(316, 82)">
       <circle cx="5" cy="5" r="4.5" fill="#3572A5" />
       <text x="18" y="9" class="lang-name">Python</text>
-      <text x="240" y="9" class="lang-pct">34.36%</text>
+      <text x="240" y="9" class="lang-pct">34.34%</text>
     </g>
     <g transform="translate(604, 82)">
       <circle cx="5" cy="5" r="4.5" fill="#663399" />
       <text x="18" y="9" class="lang-name">CSS</text>
-      <text x="240" y="9" class="lang-pct">5.50%</text>
+      <text x="240" y="9" class="lang-pct">5.49%</text>
     </g>
     <g transform="translate(28, 116)">
       <circle cx="5" cy="5" r="4.5" fill="#e34c26" />
