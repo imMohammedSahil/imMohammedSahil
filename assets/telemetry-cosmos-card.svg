@@ -289,7 +289,7 @@
     <rect width="872" height="130" rx="12" fill="#040906" stroke="#164d27" stroke-width="1.5" />
     
     <g transform="translate(145, 12)">
-      <text x="0" y="44" class="streak-val">553</text>
+      <text x="0" y="44" class="streak-val">556</text>
       <text x="0" y="76" class="streak-lbl">TOTAL CONTRIBUTIONS</text>
       <text x="0" y="102" class="streak-sub">Jul 7, 2025 &#8211; Present</text>
     </g>
@@ -299,10 +299,10 @@
     <g transform="translate(436, 12)">
       <circle cx="0" cy="30" r="28" stroke="#163d22" stroke-width="3.5" fill="none" />
       <circle cx="0" cy="30" r="28" stroke="#00ff66" stroke-width="3.5" stroke-dasharray="176" stroke-dashoffset="176" stroke-linecap="round" fill="none" />
-      <text x="0" y="39" class="streak-curr-val">0</text>
+      <text x="0" y="39" class="streak-curr-val">1</text>
       
       <text x="0" y="76" class="streak-curr-label">CURRENT STREAK</text>
-      <text x="0" y="102" class="streak-sub">Today</text>
+      <text x="0" y="102" class="streak-sub">Oct 06</text>
     </g>
 
     <line x1="582" y1="18" x2="582" y2="112" stroke="#163d22" stroke-width="1" />
@@ -330,7 +330,7 @@
       <circle cx="7" cy="7" r="6" stroke="#00ff66" stroke-width="1.5" fill="none" />
       <path d="M7 3.5 L7 7 L9.5 8.5" stroke="#00ff66" stroke-width="1.5" fill="none" stroke-linecap="round" />
       <text x="24" y="11" class="stat-lbl">Total Commits:</text>
-      <text x="360" y="11" class="stat-num">605</text>
+      <text x="360" y="11" class="stat-num">608</text>
     </g>
 
     <g transform="translate(36, 104)">
@@ -339,7 +339,7 @@
       <circle cx="10" cy="7" r="2" fill="#00ff66" />
       <path d="M4 3 L4 11 M10 7 L10 5 C10 3.5 8 3.5 4 3.5" stroke="#00ff66" stroke-width="1.2" fill="none" />
       <text x="24" y="11" class="stat-lbl">Total PRs:</text>
-      <text x="360" y="11" class="stat-num">44</text>
+      <text x="360" y="11" class="stat-num">45</text>
     </g>
 
     <line x1="436" y1="36" x2="436" y2="128" stroke="#163d22" stroke-width="1" />
