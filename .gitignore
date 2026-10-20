@@ -1,10 +1,18 @@
-*.mp4
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Local Python generator scripts & preview files (kept private on local machine)
-generate_*.py
+# Environment and local configs
+.env
+*.local
+
+# Media, previews, and scratch files
+*.mp4
 preview.html
-PROFILE_SECTIONS.md
 test_*.html
 test_*.py
+
+# Operating system files
+.DS_Store
+Thumbs.db

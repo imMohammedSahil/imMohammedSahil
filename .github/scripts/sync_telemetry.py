@@ -825,12 +825,11 @@ def sync_telemetry():
   </g>
 </svg>"""
 
-    for fname in ["telemetry-cosmos-card.svg", "telemetry-cosmos-card-v1.svg", "telemetry-cosmos-card-v2.svg", "telemetry-cosmos-card-v3.svg", "telemetry-cosmos-card-v4.svg", "telemetry-cosmos-card-v5.svg", "telemetry-cosmos-card-v6.svg", "telemetry-cosmos-card-v7.svg", "telemetry-cosmos-card-v8.svg", "telemetry-cosmos-card-v9.svg", "telemetry-cosmos-card-v10.svg", "telemetry-cosmos-card-v11.svg"]:
-        out_path = os.path.join(assets_dir, fname)
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(svg_content)
+    out_path = os.path.join(assets_dir, "telemetry-cosmos-card-v11.svg")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(svg_content)
     ET.fromstring(svg_content)
-    print("Telemetry successfully generated & validated for assets/telemetry-cosmos-card*.svg")
+    print("Telemetry successfully generated & validated for assets/telemetry-cosmos-card-v11.svg")
 
 if __name__ == "__main__":
     sync_telemetry()
