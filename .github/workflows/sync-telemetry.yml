@@ -43,4 +43,4 @@ jobs:
           BLOB=$(git hash-object -w assets/telemetry-cosmos-card-v11.svg)
           TREE=$(printf "100644 blob %s\ttelemetry-cosmos-card-v11.svg\n" "$BLOB" | git mktree)
           COMMIT=$(git commit-tree "$TREE" -m "chore(telemetry): auto-sync live stats [skip ci]")
-          git push origin "$COMMIT":refs/heads/telemetry --force
+          git push origin "$COMMIT":refs/heads/gh-pages --force
