@@ -36,14 +36,11 @@ jobs:
         run: |
           python .github/scripts/sync_telemetry.py
 
-      - name: Commit & Push Updated Telemetry
+      - name: Deploy Telemetry Card to Orphan Branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/telemetry-cosmos-card-v11.svg
-          if git diff --staged --quiet; then
-            echo "No telemetry changes detected. Everything is up to date."
-          else
-            git commit -m "chore(telemetry): auto-sync live stats & contribution metrics [skip ci]"
-            git push
-          fi
+          BLOB=$(git hash-object -w assets/telemetry-cosmos-card-v11.svg)
+          TREE=$(printf "100644 blob %s\ttelemetry-cosmos-card-v11.svg\n" "$BLOB" | git mktree)
+          COMMIT=$(git commit-tree "$TREE" -m "chore(telemetry): auto-sync live stats [skip ci]")
+          git push origin "$COMMIT":refs/heads/telemetry --force
