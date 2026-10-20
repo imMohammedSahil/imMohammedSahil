@@ -67,7 +67,7 @@
 
 <img src="assets/heading-telemetry.svg?v=3.0" alt="REAL-TIME TELEMETRY &amp; CODING STATS" width="100%" />
 
-<img src="https://raw.githubusercontent.com/imMohammedSahil/imMohammedSahil/telemetry/telemetry-cosmos-card-v11.svg" width="100%" alt="Real-Time Telemetry &amp; Coding Stats" />
+<img src="https://raw.githubusercontent.com/imMohammedSahil/imMohammedSahil/gh-pages/telemetry-cosmos-card-v11.svg" width="100%" alt="Real-Time Telemetry &amp; Coding Stats" />
 
 <img src="assets/green-divider-laser-v1.svg" width="100%" alt="---" />
 
