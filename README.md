@@ -1,12 +1,12 @@
 <div align="center">
 
   <!-- Native Animated Cyberpunk GitHub Dark & Emerald Green Banner -->
-  <a href="https://github.com/Arnim-Zola">
+  <a href="https://github.com/imMohammedSahil">
     <img src="assets/header-v2.svg" alt="Mohammed Sahil - Full-Stack & GenAI Engineer" width="100%" />
   </a>
 
   <!-- Real-Time Looping Iris Text Subtitle (GitHub Green) -->
-  <a href="https://github.com/Arnim-Zola/Eden">
+  <a href="https://github.com/imMohammedSahil/Eden">
     <img src="assets/taglines.svg?v=1.2" alt="Mohammed Sahil Technical Taglines - Iris Reveal Animation" width="100%" />
   </a>
 
@@ -30,14 +30,14 @@
 <img src="assets/heading-eden.svg?v=3.0" alt="PRIMARY FLAGSHIP: EDEN (Autonomous Misinformation Analysis Engine)" width="100%" />
 
 <div align="center">
-  <a href="https://github.com/Arnim-Zola/Eden">
+  <a href="https://github.com/imMohammedSahil/Eden">
     <img src="assets/btn-eden-v2.svg" width="140" height="140" alt="EDEN — Autonomous Multimodal Misinformation &amp; Media Forensics Engine" />
   </a>
 </div>
 
 <br/>
 
-<a href="https://github.com/Arnim-Zola/Eden">
+<a href="https://github.com/imMohammedSahil/Eden">
   <img src="assets/eden-desc-v3.svg" alt="Eden Overview" width="100%" />
 </a>
 

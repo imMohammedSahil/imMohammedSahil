@@ -58,7 +58,7 @@ def fetch_live_stats(username, token):
         data=req_body,
         headers={
           "Authorization": f"bearer {token}",
-          "User-Agent": "Arnim-Zola-Telemetry-Bot",
+          "User-Agent": "imMohammedSahil-Telemetry-Bot",
           "Content-Type": "application/json"
         }
     )
@@ -192,7 +192,7 @@ def fetch_live_stats(username, token):
         print("Error fetching live GitHub stats via GraphQL:", e)
         return None
 
-def fetch_public_contribution_calendar(username="Arnim-Zola"):
+def fetch_public_contribution_calendar(username="imMohammedSahil"):
     url = f"https://github.com/users/{username}/contributions"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
     try:
@@ -239,9 +239,9 @@ def fetch_public_contribution_calendar(username="Arnim-Zola"):
         print("Error fetching real public contribution calendar:", e)
         return None, 0
 
-def fetch_all_public_commits(username="Arnim-Zola", token=None):
+def fetch_all_public_commits(username="imMohammedSahil", token=None):
     url = f"https://api.github.com/users/{username}/repos?per_page=100"
-    headers = {"User-Agent": "Arnim-Zola-Telemetry-Bot"}
+    headers = {"User-Agent": "imMohammedSahil-Telemetry-Bot"}
     if token:
         headers["Authorization"] = f"token {token}"
     req = urllib.request.Request(url, headers=headers)
@@ -323,7 +323,7 @@ def sync_telemetry():
     assets_dir = os.path.join(repo_root, "assets")
 
     token = os.environ.get("GITHUB_TOKEN")
-    username = os.environ.get("GITHUB_USERNAME", "Arnim-Zola")
+    username = os.environ.get("GITHUB_USERNAME", "imMohammedSahil")
 
     live_stats = fetch_live_stats(username, token)
 
