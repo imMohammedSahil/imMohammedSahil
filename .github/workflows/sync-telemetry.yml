@@ -38,8 +38,8 @@ jobs:
 
       - name: Deploy Telemetry Card to Orphan Branch
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Mohammed Sahil"
+          git config --global user.email "mohammedsahil0003@gmail.com"
           BLOB=$(git hash-object -w assets/telemetry-cosmos-card-v11.svg)
           TREE=$(printf "100644 blob %s\ttelemetry-cosmos-card-v11.svg\n" "$BLOB" | git mktree)
           COMMIT=$(git commit-tree "$TREE" -m "chore(telemetry): auto-sync live stats [skip ci]")
